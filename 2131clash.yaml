@@ -226,8 +226,8 @@ Proxy Group:
   - "\u9999\u6E2F C HKT VIP2 v2ray"
   - "\u9999\u6E2F D CN2 VIP2 v2ray"
   - "\u9999\u6E2F E CN2 VIP2 v2ray"
-#   url: 'http://www.gstatic.com/generate_204'
-#   interval: 300
+   url: 'http://www.gstatic.com/generate_204'
+   interval: 300
 
 # load-balance: 负载均衡
 # - name: "LoadBalance"
