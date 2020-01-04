@@ -199,7 +199,20 @@ Proxy:
     Host: hke.ajsnode.xyz
   ws-path: /v2ray
 Proxy Group:
-
+- interval: 20000
+  name: UrlTest
+  proxies:
+  - "\u53F0\u6E7E A HiNet VIP2 v2ray"
+  - "\u65B0\u52A0\u5761 B CN2 VIP2 v2ray"
+  - "\u65E5\u672C A VIP1 v2ray"
+  - "\u65E5\u672C D VIP2 v2ray"
+  - "\u7F8E\u56FD B CN2 VIP2 v2ray"
+  - "\u9999\u6E2F A HKBN VIP1 v2ray"
+  - "\u9999\u6E2F C HKT VIP2 v2ray"
+  - "\u9999\u6E2F D CN2 VIP2 v2ray"
+  - "\u9999\u6E2F E CN2 VIP2 v2ray"
+  type: url-test
+  url: http://www.gstatic.com/generate_204
   
 # fallback 通过指定的 URL 测试并选择可用的节点，当 1 故障不可用时自动切换到 2 以此类推
 # - name: "Fallback"
@@ -239,15 +252,7 @@ Proxy Group:
   proxies:
   - PROXY
   - DIRECT
-  - "\u53F0\u6E7E A HiNet VIP2 v2ray"
-  - "\u65B0\u52A0\u5761 B CN2 VIP2 v2ray"
-  - "\u65E5\u672C A VIP1 v2ray"
-  - "\u65E5\u672C D VIP2 v2ray"
-  - "\u7F8E\u56FD B CN2 VIP2 v2ray"
-  - "\u9999\u6E2F A HKBN VIP1 v2ray"
-  - "\u9999\u6E2F C HKT VIP2 v2ray"
-  - "\u9999\u6E2F D CN2 VIP2 v2ray"
-  - "\u9999\u6E2F E CN2 VIP2 v2ray" 
+  
   type: select
 - name: Apple
   proxies:
