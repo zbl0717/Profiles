@@ -4,3 +4,4 @@
 ||ad.hpplay.cn
 ||rp.hpplay.cn
 ||logrp.hpplay.cn
+||storage.taifutj.com
